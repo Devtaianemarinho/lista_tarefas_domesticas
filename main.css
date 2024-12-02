@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.container{
+    background-color:#ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.151) ;
+    width: 100%;
+    max-width: 500px;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgba(0, 128, 128, 0.842);
+    font-size: 34px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.301);
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#nome-tarefa-input{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid rgba(64, 224, 208, 0.596);
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+button{
+    padding: 8px;
+    margin-left: 8px;
+    border: none;
+    border-radius:8px ;
+    font-weight:bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+
+#botao-envio{
+    background-color: green;
+}
+
+#botao-cancelar{
+    background-color: red;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-top: 1px solid rgba(0, 0, 0, 0.199);
+   padding: 20px;
+    
+}
+
+.footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter ;
+}
+.footer a{
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    transition-duration: 1s;
+}
